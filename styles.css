@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+/*
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Hind', sans-serif;
+
+    light: #E9F2F7;
+    base: #688D9F;
+    dark: #042738;
+    selected: #FBBAA0;
+*/
+
+html,
+body {
+    background-color: #E9F2F7;
+    color: #042738;
+}
+
+.bingo {
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+header {
+    display: block;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Indie Flower', cursive;
+    margin: 20px 0;
+    color: #042738;
+}
+
+.board {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+}
+
+    .board > .col {
+        margin: 0 10px;
+    }
+
+        .board > .col > .cell {
+            width: 100px;
+            height: 100px;
+            margin: 10px 0;
+        }
+
+.toggle {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid #042738;
+    background-color: #688D9F;
+    color: #E9F2F7;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.cell > input[type=checkbox] {
+    display: none;
+}
+
+    .cell > input[type=checkbox]:checked + .toggle {
+        background-color: #FBBAA0;
+        color: #042738;
+    }
+
+.controls {
+}
+
+    .controls > button {
+        padding: 10px 20px;
+    }
