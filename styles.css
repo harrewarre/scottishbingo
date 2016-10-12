@@ -38,11 +38,11 @@ header {
 .board {
     display: flex;
     margin: 0 auto;
-    width: 800px;
+    width: 700px;
 }
 
     .board > .col {
-        margin: 0 10px;
+        margin: 0 5px;
     }
 
         .board > .col > .cell {
