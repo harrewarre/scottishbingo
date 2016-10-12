@@ -38,7 +38,7 @@ header {
 .board {
     display: flex;
     margin: 0 auto;
-    width: 700px;
+    width: 752px;
 }
 
     .board > .col {
