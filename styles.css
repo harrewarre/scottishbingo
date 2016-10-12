@@ -61,12 +61,13 @@ header {
     background-color: #688D9F;
     color: #E9F2F7;
     text-align: center;
-    padding: 5px;
+    padding: 15px 5px;
     font-size: 14px;
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+    line-height: 14px;
 }
 
 .cell > input[type=checkbox] {
