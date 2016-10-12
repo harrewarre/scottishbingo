@@ -38,7 +38,7 @@ header {
 .board {
     display: flex;
     margin: 0 auto;
-    width: 600px;
+    width: 800px;
 }
 
     .board > .col {
@@ -46,22 +46,22 @@ header {
     }
 
         .board > .col > .cell {
-            width: 100px;
-            height: 100px;
+            width: 140px;
+            height: 140px;
             margin: 10px 0;
         }
 
 .toggle {
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     border-radius: 15px;
     cursor: pointer;
     border: 2px solid #042738;
     background-color: #688D9F;
     color: #E9F2F7;
     text-align: center;
-    padding: 15px 5px;
+    padding: 50px 5px;
     font-size: 14px;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -80,6 +80,7 @@ header {
     }
 
 .controls {
+    padding: 20px 0;
 }
 
     .controls > button {
